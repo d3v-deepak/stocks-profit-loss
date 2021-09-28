@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+
+:root {
+  --primary-color: goldenrod;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.container h1 {
+  font-size: 4em;
+}
+label {
+  display: block;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+input {
+  font-size: 2rem;
+  padding: 1rem;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.brand {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 3rem;
+  text-decoration: double;
+  background-color: var(--primary-color);
+}
+p {
+  margin: 3rem;
+  font-size: 3rem;
+}
+button {
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  margin-top: 2rem;
+  border-radius: 10px;
+  border-color: var(--primary-color);
+}
