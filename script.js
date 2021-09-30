@@ -18,7 +18,7 @@ function calculateProfitLoss(inital, quantiy, current) {
     var profit = (current - inital) * quantiy;
     var profitPercentage = (profit / inital) * 100;
     showOutput(
-      `Loss has occured of Rs${profit} and loss % is ${Number.parseFloat(
+      `Profit has occured of Rs${profit} and loss % is ${Number.parseFloat(
         profitPercentage
       ).toFixed(2)}`
     );
